@@ -1,18 +1,18 @@
 //Pirma užduotis
-// var kaina
-// while (isNaN(parseFloat(kaina))){
+var kaina
+while (isNaN(parseFloat(kaina))){
 
-// kaina = prompt('Kokia prekės kaina su PVM?')
-// }
-// var prekesKainaSuPVM = parseFloat(kaina)
-// var prekesKainaSuPVMFormated = 'Prekės kaina su PVM: ' + prekesKainaSuPVM.toFixed(2) + ' €'
-// document.write(prekesKainaSuPVMFormated + '<br/>')
-// var PVM = (prekesKainaSuPVM * (0.21 / (1+ 0.21)))
-// var PVMFormated = ('PVM: ' + PVM.toFixed(2) + ' €')
-// document.write(PVMFormated + '<br/>')
-// var prekesKainaBePVM = (prekesKainaSuPVM - PVM)
-// var prekesKainaBePVMFormated = ('Prekės kaina be PVM: ' + prekesKainaBePVM.toFixed(2) + ' €')
-// document.write(prekesKainaBePVMFormated)
+kaina = prompt('Kokia prekės kaina su PVM?')
+}
+var prekesKainaSuPVM = parseFloat(kaina)
+var prekesKainaSuPVMFormated = 'Prekės kaina su PVM: ' + prekesKainaSuPVM.toFixed(2) + ' €'
+document.write(prekesKainaSuPVMFormated + '<br/>')
+var PVM = (prekesKainaSuPVM * (0.21 / (1+ 0.21)))
+var PVMFormated = ('PVM: ' + PVM.toFixed(2) + ' €')
+document.write(PVMFormated + '<br/>')
+var prekesKainaBePVM = (prekesKainaSuPVM - PVM)
+var prekesKainaBePVMFormated = ('Prekės kaina be PVM: ' + prekesKainaBePVM.toFixed(2) + ' €')
+document.write(prekesKainaBePVMFormated)
 
 // Antra užduotis
 var prekesKaina;
